@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/spirit_fitness"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="@color/black"
+        android:text="@string/app_name"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/small"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/running_men"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:src="@drawable/run" />
+
+    <EditText
+        android:id="@+id/enter_your_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/black"
+        android:hint="@string/enter_name"
+        android:textColorHint="@color/pink"
+        android:textSize="5mm"
+        android:paddingLeft="5mm" />
+
+    <Button
+        android:id="@+id/start_training"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:background="@color/white"
+        android:text="@string/start"
+        android:textColor="@color/black"
+        android:textSize="5mm"
+        android:textStyle="bold"
+        android:onClick="onClickfirst"/>
+
+</LinearLayout>

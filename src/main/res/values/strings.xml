@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SPIRIT FITNESS</string>
+    <string name="start">START TRAINING</string>
+    <string name="enter_name">enter your name</string>
+    <string name="enter_email">enter your email</string>
+    <string name="day">one-time visit</string>
+    <string name="mon">monthly</string>
+    <string name="year">annual</string>
+    <string name="thx">THANK YOU</string>
+</resources>
